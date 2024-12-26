@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  height: 100vh; /* Ensure full viewport height */
+}
+
+.left-panel,
+.center-panel,
+.right-panel {
+  padding: 10px; /* Add some padding for aesthetics */
+}
+
+.left-panel,
+.right-panel {
+  flex: 2; /* Set both side panels to take 2 parts each */
+  background-color: #c0e6fa;
+  border-right: 2px solid #ddd;
+  text-align: center; /* Center content in side panels */
+  overflow: auto; /* Allow content to scroll if needed */
+}
+
+.center-panel {
+  flex: 6; /* Set center panel to take 6 parts */
+}
+
+.map-container {
+  width: 100%; /* Ensure map fills the entire center panel */
+  height: 100%;
+}
+
+mapid {
+  width: 100%; /* Redundant with .map-container, can be removed */
+  height: 100%; /* Redundant with .map-container, can be removed */
+}

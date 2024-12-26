@@ -1,0 +1,337 @@
+<html>
+<head>
+ <title>pakisatan web</title>
+ <link rel= "stylesheet" href = "myPage.css">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+ <script src="lahore.js"></script>
+  <!-- <style>
+    /* Inline styles for immediate fixes (optional) */
+    body {
+      background-color: #FFFFFF;
+      color: #0000FF;
+      position:"center"
+    }
+  </style> -->
+</head>
+<body>
+  
+  <div class="app-container">
+	<div class="left-panel">
+		<style>
+			/* General Styles */
+			body {
+				font-family: 'Arial', sans-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f4f4f9;
+				color: #333;
+			}
+			h1, h2, h3 {
+				margin: 0;
+			}
+			p {
+				line-height: 1.6;
+			}
+			ul {
+				list-style-type: none;
+				padding: 0;
+			}
+	
+			/* Header Styles */
+			header {
+				background-color: #2b6777;
+				color: white;
+				text-align: center;
+				padding: 1.5rem 0;
+				position: relative;
+			}
+			header img {
+				width: 150px;
+				height: 150px;
+				border-radius: 50%;
+				border: 4px solid #fff;
+				margin-bottom: 1rem;
+			}
+			header h1 {
+				font-size: 2rem;
+				margin-bottom: 0.5rem;
+			}
+			header p {
+				font-size: 1rem;
+				margin: 0.5rem 0;
+			}
+	
+			/* Main Container */
+			.container {
+				max-width: 900px;
+				margin: 2rem auto;
+				padding: 0 1rem;
+			}
+	
+			/* Section Styles */
+			section {
+				background: white;
+				margin-bottom: 1.5rem;
+				padding: 1.5rem;
+				border-radius: 8px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			}
+			section h2 {
+				font-size: 1.5rem;
+				color: #2b6777;
+				margin-bottom: 1rem;
+				border-bottom: 2px solid #2b6777;
+				padding-bottom: 0.5rem;
+			}
+	
+			/* Skills List */
+			.skills li, .experience li {
+				margin-bottom: 0.5rem;
+			}
+	
+			/* Additional Images Section */
+			.gallery {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+				gap: 1rem;
+			}
+			.gallery img {
+				width: 100%;
+				border-radius: 8px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				transition: transform 0.3s ease;
+			}
+			.gallery img:hover {
+				transform: scale(1.05);
+			}
+	 </style>
+	 <h1>Dashboard</h1>
+	 <header>
+        <img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\Muz.jpg" alt="Profile Picture">
+        <h1>Muzzammil khan</h1>
+        <p>Space Science Student | Lahore, Pakistan | muzamilkhan50563@gmail.com</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Me -->
+        <section>
+            <h2>About Me</h2>
+            <p>I am a passionate student of Space Science with a solid understanding of remote sensing, GIS, and Web GIS technologies. Currently, I am interning at Nespak,AOS & UA (Union Association Pvt. Limited), where I am getting practical experience in geospatial analysis, data visualization, and modern geoinformatics tools. 
+			I have a strong interest in managing and analyzing spatial data and aim to use my skills to create meaningful geospatial solutions..</p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <p><strong>BS Hons(Space Science):</strong> University of the Punjab,Lahore </p>
+            <p><strong>ICS(Computer Science):</strong>Government College(2019-21)</p>
+            <p><strong>Matriculation:</strong>Government school(2017-19)</p>
+        </section>
+
+        <!-- Experience -->
+        <section>
+            <h2>Experience</h2>
+            <ol class="experience">
+                <li>Urban Planning and Surveying</li>
+                <li>Master Planning Project by PMU & NESPAK</li>
+                <li>Software Proficiency</li>
+				<li>GIS TOOLS</li>
+				<li>PROGRAMING</li>
+				<li>WEB DEVELOPMENT</li>
+            </ol>
+        </section>
+
+        <!-- Skills -->
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>Remote Sensing:</li>
+                <li>GIS Expertise</li>
+                <li>Cliamtology & Forcasting</li>
+                
+            </ul>
+        </section>
+
+        <!-- Contact -->
+        <section>
+            <h2>Contact</h2>
+			<a href="https://mail.google.com/mail/u/0/#inbox"  target="_blank">
+            <p style="display: flex; align-items: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\email.png" style="height: 25px; width: 25px; margin-right: 10px;">
+			muzamilkhan50563
+			 @gmail.com 
+			</p></a>
+			<a href="https://web.whatsapp.com/"  target="_blank">
+            <p style="display: flex; align-items: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\cell.png" style="height: 20px; width: 20px; margin-right: 10px;">
+				+92 (0) 311 4642476
+			  </p></a>
+			  <a href="https://www.google.com/maps/place/Muslim+Town,+Lahore,+Punjab+54000,+Pakistan/@31.5184155,74.3198983,17z/data=!3m1!4b1!4m6!3m5!1s0x39190487cc9571bb:0xaf85a5e061138579!8m2!3d31.5193603!4d74.3228206!16s%2Fm%2F0n52ql8?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"  target="_blank">
+			  <p style="display: flex; align-items: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\location.png" style="height: 25px; width: 25px; margin-right: 10px;">
+				Muslim Town, Lahore</p>
+			  </a>
+			  <!-- <a href="https://www.linkedin.com/in/rana-ibtisam-qadir-b3591927b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "  target="_blank">
+				<p style="display: flex; align-items: center; font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+					<img src="C:\Users\92308\Desktop\RS\DATAVIS\DASHBORAD\PICS\linkdin.jpg" style="height: 25px; width: 25px; margin-right: 10px;">
+					Rana Ibtisam Qadir
+				  </p></a> -->
+			
+        </section>
+    </main>
+
+   
+	</div>
+	<div class="center-panel">	
+	  <div id="mapid" class="map-container"></div>
+      <div geo = "C:\Users\92308\Desktop\Pyton_programs\Semester_7\map.geojson"></div>
+	</div>
+	<div class="right-panel">
+	  <img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\dep.png" alt = "no image" height = "100" width = "100" >
+      <img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\spline_regular.png" alt = "no image" height = "150" wdith = "150">
+	   <style>
+		   body {
+			.gallery {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+				gap: 1rem;
+			}
+			.gallery img {
+				width: 100%;
+				border-radius: 8px;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				transition: transform 0.3s ease;
+			}
+			.gallery img:hover {
+				transform: scale(1.05);
+			}
+		   }
+	   </style>
+	
+	    <!-- Additional Images Section -->
+		<section class="container">
+			<h2>Additional Images</h2>
+			<div class="gallery">
+				<a href="https://code.earthengine.google.com/"  target="_blank"> Google Earth Engine
+					<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\FIVER_2.png" alt="Project Image 1" style="width: 100%; height: auto;">
+				  </a>
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\spline_regular.png" alt="Project Image 2">
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\idw.png" alt="Project Image 3">
+				<img src="D:\semesters\7 sem mid\web\DASHBORAD\DASHBORAD\picture\ph.png" alt="Project Image 4">
+			</div>
+		</section>
+	</div>
+  </div>
+</body>
+<script>
+var mymap = L.map('mapid').setView([32,72],5);
+var OSM = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+var EWI = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+});
+
+
+
+
+OSM.addTo(mymap)
+EWI.addTo(mymap)
+var marker0 = L.marker([31,74], {draggable: false}).addTo(mymap)
+var marker1 = L.marker([31,74], {draggable: false}).addTo(mymap)
+
+var mPopup0 = marker0.bindPopup ("Welcome to Lahore").openPopup();
+var mPopup1 = marker1.bindPopup ("<h2> Hello</h2> This is Space Science").openPopup();
+var popup = L.popup();
+
+function onMapClick(e) {
+    popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(mymap);
+}
+
+mymap.on('click', onMapClick);
+
+var pakshp = L.geoJSON(pakdata, {
+	onEachFeature: function (feature, layer) {
+	  // Bind a popup to each feature with its properties
+	  layer.bindPopup(`
+		<b>District:</b> ${feature.properties.DISTRICT || "N/A"}<br>
+		<b>Province:</b> ${feature.properties.PROVINCE || "N/A"}<br>
+		<b>Admin Unit:</b> ${feature.properties.ADMIN_UNIT || "N/A"}<br>
+		<b>Shape Length:</b> ${feature.properties.Shape_Leng || "N/A"}<br>
+		<b>Shape Area:</b> ${feature.properties.Shape_Area || "N/A"}
+	  `);
+	  
+	  // Add a click event listener
+	  layer.on('click', function (e) {
+		console.log("Feature clicked:", feature);
+	  });
+	}
+  }).addTo(mymap);
+
+
+
+
+
+
+
+
+
+
+
+
+var baseLayers = {
+    "Open Street Map": OSM,
+	"Esri world Imagery": EWI
+};
+
+var overlays = {
+    "Lahore ": marker0,
+    "Space Science ": marker1,
+	"Lahore District": pakshp
+};
+
+L.control.layers(baseLayers, overlays,{collapsed: false,autoZIndex:true,hideSingleBase:true,sortLayers:false}).addTo(mymap);
+
+
+
+
+
+
+
+
+
+
+L.control.zoom('<span aria-hidden="true">+</span>')
+L.control.scale().addTo(mymap)
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</html>
